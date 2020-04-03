@@ -1,5 +1,5 @@
-# cis530_wine_project
-The objective of this project is to predict wine rating based on the review
+# Pour Decisions
+The objective of this project is to predict wine rating based on its review. The final report for the project can be viewed in _report.pdf_.
 
 ## Data
 Data folder contains train, val, and test data that are preprocessed. 
@@ -11,8 +11,7 @@ _length.py_ computes the accuracy based by training a linear model using the len
 
 ## Naive Bayes
 Naive Bayes foler contains source code for Naive Bayes model.
-1) _naivebayes.py-: you can specify in the code so that you can run NB with word-count or tf-idf and its n-gram. 
-The command is the following. _python naivebayes.py --train [TRAIN FILE] --test [TEST FILE]_
+1) _naivebayes.py_: you can specify in the code so that you can run NB with word-count or tf-idf and its n-gram.
 
 ## RNN
 The code and instruction to run it is included in https://github.com/kimny817/allenNLP.git
@@ -26,5 +25,3 @@ and average embedings of a review fed into a random tree classifer to predict th
 
 ## Feature analysis
 Feature Analysis folder contains the data and source code for feature analysis
-
-### Codes to generate outputs are included in the code files in each of the extensions. 
